@@ -46,7 +46,7 @@ object BlogApp {
             )))
             val post2 = s"Blog Post $postId"
             complete(HttpResponse(entity = HttpEntity(ContentTypes.`text/html(UTF-8)`,
-              s"<h1>$post</h1>" +
+              s"<h1>$post2</h1>" +
                 "<p>This is the content of the second blog post.</p>" +
                 "<p>Tomorrow I will use more cliches..</p>"
             )))
@@ -69,3 +69,33 @@ object BlogApp {
 //  val post = BlogEngine.createPost("My first blog post", "Hello, hello!", "nikip")
 //  println(BlogEngine.showPost(post))
 //}
+
+//case class Post(id: Int, title: String, body: String)
+//
+//object BlogApp {
+//
+//  def main(args: Array[String]): Unit = {
+//    val posts = List(
+//      Post(1, "First Post", "This is the first post"),
+//      Post(2, "Second Post", "This is the second post"),
+//      Post(3, "Third Post", "This is the third post")
+//    )
+//
+//    val route =
+//      path("posts") {
+//        get {
+//          complete(posts)
+//        }
+//      }
+//
+//    val bindingFuture = Http().bindAndHandle(route, "localhost", 8080)
+//
+//    println(s"Server is now online at http://localhost:8080\nPress RETURN to stop...")
+//    scala.io.StdIn.readLine()
+//
+//    bindingFuture
+//      .flatMap(_.unbind())
+//      .onComplete(_ => system.terminate())
+//  }
+//}
+
