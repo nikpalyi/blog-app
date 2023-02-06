@@ -2,6 +2,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	BlogApp.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/npalyi/Documents/DEV/blog-app/target/scala-2.13/classes/BlogApp.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Post.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/npalyi/Documents/DEV/blog-app/target/scala-2.13/classes/Post.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	BlogApp$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/npalyi/Documents/DEV/blog-app/target/scala-2.13/classes/BlogApp$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
