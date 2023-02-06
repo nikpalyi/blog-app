@@ -1,4 +1,4 @@
-# Blog application
+# Super Simple Blog application
 Blog app in Scala and Akka
 
 ## Current file structure:
@@ -48,6 +48,15 @@ Run:
 sbt run
 ```
 
+You should get a logging output as:
+```
+[info] done compiling
+[info] running BlogApp 
+Server online at http://localhost:8080/
+Press RETURN to stop...
+```
+And you can go to: http://localhost:8080/ in your browser
+
 •• Plan:
 
 TBD
@@ -57,7 +66,7 @@ TBD
 - [ ] Refactoring
 - [ ] ... 
 
-### Additional feature ideas for nice to hvae future:
+### Additional feature ideas for nice to have future:
 
 - User authentication and authorization: You can allow users to sign up, log in, and log out of the application. You can also restrict access to certain pages or actions based on the user's role (e.g. admin, author, reader).
 
