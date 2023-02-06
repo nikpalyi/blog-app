@@ -27,7 +27,7 @@ object BlogApp {
             complete(HttpResponse(entity = HttpEntity(ContentTypes.`text/html(UTF-8)`,
               "<h1>List of Blog Posts</h1>" +
                 "<ul>" +
-                "<li><a href='/posts/1'>Post 1</a></li>" +
+                "<li><a href='/posts/1'>Post 1</a></li>" + "- Monday, 6 February 2023 (GMT) Time in Dublin, County Dublin"
                 "<li><a href='/posts/2'>Post 2</a></li>" +
                 "<li><a href='/posts/3'>Post 3</a></li>" +
                 "</ul>"
@@ -39,7 +39,10 @@ object BlogApp {
             val post = s"Blog Post $postId"
             complete(HttpResponse(entity = HttpEntity(ContentTypes.`text/html(UTF-8)`,
               s"<h1>$post</h1>" +
-                "<p>This is the content of the blog post.</p>"
+                "<p>This is the content of the blog post.</p>" +
+                "<p>Today's mantra is 'Don't try and let it go, you will get it.'or 'Don't get always what you want and other cliches..\n</p>" +
+                "<p>It's not the worst for a beginning, at least we began it..\n</p>" +
+                "<p>TYou are overwhelmingly exciting, except when you are overwhelming.</p>"
             )))
           }
         }
