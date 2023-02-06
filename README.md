@@ -53,6 +53,6 @@ sbt run
 TBD
 
 ### TODO Checklist:
-[] Refactoring
-[] Testing
-[] ..
+- [ ] Testing
+- [ ] Refactoring
+- [ ] ... 
