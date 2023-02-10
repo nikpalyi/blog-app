@@ -2,6 +2,7 @@
 *.log
 .idea
 .target
+.bsp
 
 ### OSX ###
 .DS_Store
@@ -20,3 +21,4 @@
 *.zip
 *.tar.gz
 *.rar
+*.bsp
