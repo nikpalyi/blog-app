@@ -63,8 +63,10 @@ TBD
 
 ### TODO Checklist:
 - [ ] Testing
+- [ ] Modularization
 - [ ] Refactoring
-- [ ] ... 
+- [ ] Logging
+- [ ] Error handling
 
 ### Additional feature ideas for nice to have future:
 
